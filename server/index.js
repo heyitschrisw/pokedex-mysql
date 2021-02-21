@@ -19,6 +19,7 @@ router
   .route('/')
   .get(controller.get)
   .patch(controller.update)
+  .delete(controller.delete)
 
 router
   .route('/type')
